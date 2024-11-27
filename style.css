@@ -1,0 +1,655 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Outline", "Lexend Exa", "Delius Swash Caps", "Faculty Glyphic";
+}
+
+body {
+  background: rgba(241, 245, 245, 0.876);
+}
+header {
+  /* position: fixed; */
+  height: 13vh;
+  width: 100%;
+  /* background-color: #fff; */
+  background-color: transparent;
+  padding: 0 16%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px; */
+  z-index: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 0 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #060c3e;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  word-spacing: -1px;
+}
+
+.btn {
+  padding: 14px 26px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #060c3e;
+  border-radius: 35px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+
+/* -----Container & Bannner ------ */
+.container {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 14vh;
+  position: relative;
+}
+
+.container::after {
+  display: block;
+  position: relative;
+  padding: 0;
+  top: 0;
+  content: " ";
+  height: 13vh;
+  background: transparent;
+}
+
+.banner {
+  display: flex;
+  width: 100%;
+  height: 94vh;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  padding: 0.5% 16% 0.5%;
+  gap: 12%;
+  margin-bottom: 2vh;
+}
+.banner .banner1,
+.banner2 {
+  width: 50%;
+}
+
+.banner .banner1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+}
+
+.banner1 .btn {
+  width: 160px;
+  /* height: 55px; */
+  text-align: center;
+  padding: 19px;
+  font-size: 14px;
+  font-weight: 700;
+  word-spacing: -2px;
+}
+.banner .banner1 p {
+  font-size: 15.8px;
+  font-family: "Outfit", "Merriweather";
+  line-height: 25px;
+  width: 85%;
+  word-wrap: break-word;
+  margin-bottom: 6%;
+  color: #070a29;
+}
+.banner .banner1 h2 {
+  width: 85%;
+  font-size: 450%;
+  font-weight: 600;
+  letter-spacing: -2px;
+  font-family: "Outfit", "Merriweather";
+  color: #070a29;
+  line-height: -50%;
+}
+
+.banner .banner1 h3 {
+  font-size: 25px;
+  font-family: "Outfit", "Merriweather";
+  color: #070a29;
+}
+
+.banner2 {
+  height: 90%;
+  position: relative;
+  display: flex;
+}
+.banner2 .img1 {
+  width: 95%;
+  height: 93%;
+  border-radius: 10px;
+  border-top-right-radius: 120px;
+}
+.banner2 .img2 {
+  position: absolute;
+  height: 20%;
+  width: 25%;
+  left: -11.5%;
+  top: 15%;
+  z-index: -1;
+}
+
+/* -----Sec 1 ------ */
+.sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5% 16%;
+  height: 75vh;
+  gap: 4%;
+  background: url("img3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sec1 .main {
+  width: 100%;
+  height: 93%;
+  padding: 3% 5.1%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.sec1 .main .btn {
+  margin-top: 4%;
+  width: 160px;
+  /* height: 55px; */
+  text-align: center;
+  padding: 19px;
+  font-size: 14px;
+  font-weight: 700;
+  word-spacing: -2px;
+  align-self: center;
+}
+.sec1 .main h1 {
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: -5px;
+  color: #070a29;
+}
+.sec1 .main h4 {
+  font-family: "Lexend Exa", "Merriweather";
+  width: 100%;
+  margin-top: 17px;
+  font-size: 13.8px;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: center;
+  color: #070a29;
+}
+
+/* -----Sec 2 ------ */
+.sec2 {
+  height: 95vh;
+  width: auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.sec2 .img4 {
+  position: absolute;
+  width: 8.18%;
+  height: 15.5%;
+  right: 13.2%;
+  top: -7.6%;
+  z-index: -1;
+}
+.sec2 .main {
+  width: 68%;
+  height: 78%;
+
+  align-self: center;
+  display: flex;
+  border-radius: 0 15px 15px 0;
+}
+
+.sec2 .main .main1 {
+  width: 50%;
+  height: 100%;
+  background: url("img4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sec2 .main .main1 img {
+  width: 100%;
+  height: 100%;
+}
+.sec2 .main .main2 {
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 6% 4%;
+  gap: 1%;
+}
+.sec2 .main .main2 h1 {
+  font-family: "Lexend Exa", "Merriweather";
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: -5px;
+  color: #070a29;
+  line-height: 140%;
+}
+.sec2 .main .main2 h4 {
+  font-family: "Lexend Exa", "Merriweather";
+  margin-bottom: 8%;
+  font-size: 13.8px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #070a29;
+}
+.sec2 .main .main2 .btn {
+  width: 160px;
+  text-align: center;
+  padding: 19px;
+  font-size: 14px;
+  font-weight: 700;
+  word-spacing: -2px;
+}
+
+/* -----Sec 3 ------ */
+.sec3 {
+  height: 95vh;
+  padding: 4% 0;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.sec3 .main {
+  position: relative;
+  display: flex;
+  align-self: center;
+  width: 73%;
+  height: 84%;
+  border-radius: 15px 0 0 15px;
+  z-index: 1;
+}
+
+.sec3 .main .img5 {
+  position: absolute;
+  width: 12%;
+  height: 26%;
+  left: -6%;
+  top: -12%;
+  z-index: -10000;
+}
+.sec3 .main .main1 {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  background: green;
+  justify-content: space-around;
+  padding: 2% 3%;
+  border-radius: 15px;
+  background: rgb(225, 231, 231);
+  /* z-index: 1; */
+}
+
+.sec3 .main .main1 .quote {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  height: 14%;
+  padding: 2% 6%;
+  border-radius: 10px;
+  gap: 2%;
+}
+
+.sec3 .main .main1 .quote p {
+  font-size: 105%;
+  font-weight: 600;
+}
+
+.sec3 .main .main2 {
+  display: flex;
+  padding: 4% 4%;
+  justify-content: flex-start;
+}
+.sec3 .main .main2 p {
+  font-size: 280%;
+  font-weight: 500;
+  color: #060c3e;
+  word-spacing: -7px;
+  font-style: "Outfit ";
+}
+
+/* -----Sec 4 ------ */
+.sec4 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7% 13%;
+  gap: 2.6rem;
+}
+
+.sec4 .header {
+  font-size: 2.78rem;
+  align-self: flex-start;
+  color: #060c3e;
+}
+
+.sec4 .course_1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.85rem;
+  height: 500px;
+  margin-bottom: 2rem;
+}
+
+.sec4 .course_1 .course_title {
+  font-size: 1.7rem;
+  color: #060c3e;
+}
+
+.sec4 .course_1 .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10%;
+  height: 90%;
+}
+
+.crs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  border: 3.45px solid #060c3e;
+  border-radius: 0 13px 0 13px;
+}
+
+.crs .para {
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+}
+.sec4 .course_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sec4 .course_2 .course_title {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  text-align: center;
+}
+
+.sec4 .course_2 .course_title h2 {
+  font-size: 1.7rem;
+  color: #060c3e;
+  text-align: center;
+  align-self: center;
+  font-weight: 400;
+}
+
+.sec4 .course_2 .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  height: 90%;
+}
+
+.dot1 {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  top: 7%;
+  right: 7%;
+}
+
+.dot2 {
+  position: absolute;
+  height: 10%;
+  width: 8%;
+  bottom: 7%;
+  left: 7%;
+}
+
+/* -----Sec 5   ----- */
+.sec5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 30vh; */
+  gap: 3rem;
+  width: 100%;
+  padding: 1.8rem 13rem 5rem;
+}
+
+.sec5 h2 {
+  font-size: 2.43rem;
+  font-family: "Outfit";
+}
+
+.sec5 .main {
+  display: flex;
+  gap: 5%;
+  width: 90%;
+  align-self: center;
+}
+
+.sec5 .main p {
+  width: 80%;
+  font-size: 2.48rem;
+  font-weight: 600;
+  font-family: "Outfit";
+}
+
+.sec5 .main .btn {
+  align-self: center;
+  width: 15%;
+  height: 3.8rem;
+  align-content: center;
+  text-align: center;
+}
+
+/* -----Sec 6  ----- */
+.sec6 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 1% 0.48%;
+  font-family: "Outfit";
+}
+
+.sec6 .sec6_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  background: url("img22.jpg");
+  border-radius: 10px;
+  color: #fff;
+  padding: 5.8% 9%;
+  gap: 2.53rem;
+}
+
+.sec6 .sec6_main .sec6_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-self: center;
+}
+
+.sec6 .sec6_main .sec6_1 .para {
+  font-size: 2.9rem;
+  font-weight: 600;
+  letter-spacing: -0.24rem;
+}
+
+.sec6 .sec6_main .sec6_1 .sub {
+  font-size: 18px;
+  font-weight: 500;
+  word-spacing: -0.24rem;
+}
+
+.sec6 .sec6_main .sec6_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 85%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.sec6 .sec6_main .sec6_2 .para {
+  font-size: 2.8rem;
+  letter-spacing: -0.25rem;
+  font-weight: 600;
+}
+
+.sec6 .sec6_main .sec6_2 .sign {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.sec6 .sec6_main .sec6_2 .sign #reg {
+  width: 45rem;
+  height: 3.6rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 3% 3.85%;
+}
+
+.sec6 .sec6_main .sec6_2 .sign #reg::placeholder {
+  font-size: 16px;
+  filter: opacity(70%);
+}
+
+.sec6 .sec6_main .sec6_2 .sign #reg {
+  font-size: 16px;
+  filter: opacity(80%);
+}
+
+.sec6 .sec6_main .sec6_2 .sign .btn {
+  width: 170px;
+  background: #070a29;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.sec6 .sec6_main .sec6_3 {
+  display: flex;
+  align-self: center;
+  justify-items: center;
+  width: 80%;
+  gap: 3%;
+  background: #fff;
+  padding: 1% 5%;
+  border-radius: 2.5px;
+}
+.sec6 .sec6_main .sec6_3 .spnr {
+  width: 20%;
+  height: 90%;
+  align-self: center;
+  justify-self: center;
+}
+
+.sec7 {
+  background: #060c3e;
+  display: flex;
+  flex-direction: column;
+  padding: 4% 13%;
+  gap: 4.64rem;
+}
+
+.logo2 {
+  height: 60px;
+  width: 8em;
+}
+
+.sec7 .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.8rem;
+  border-bottom: 0.7px solid rgba(245, 245, 245, 0.278);
+  padding-bottom: 4rem;
+}
+
+.sec7 .main .main_1 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.sec7 .main .main_1 p {
+  width: 87.5%;
+  font-family: "Outfit";
+  font-size: 15.9px;
+  line-height: 1.7rem;
+  color: #ffffffdd;
+  text-wrap: wrap;
+}
+
+.sec7 .main .main_1 .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.sec7 .main .main_1 .icons .icon {
+  height: 1.5rem;
+  color: white;
+}
+
+.sec7 .main .main_2 {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 0.85rem;
+  flex-wrap: wrap;
+  height: 25%;
+}
+
+.sec7 .main .main_2 a {
+  color: #fffffff5;
+}
+
+.sec7 .main .main_3 {
+  display: flex;
+  flex-direction: column;
+}
+.sec7 .summary {
+  align-self: center;
+  color: #ffffffdd;
+  font-size: 0.95rem;
+  font-family: "Outfit";
+  font-weight: 500;
+}
