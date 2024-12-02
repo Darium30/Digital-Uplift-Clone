@@ -8,19 +8,16 @@
 }
 
 body {
-  background: rgba(241, 245, 245, 0.876);
+  background: rgba(241, 245, 245, 0.95);
 }
 header {
-  /* position: fixed; */
   height: 13vh;
   width: 100%;
-  /* background-color: #fff; */
   background-color: transparent;
   padding: 0 16%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px; */
   z-index: 1;
 }
 
@@ -30,7 +27,7 @@ header {
 
 .menu {
   display: flex;
-  gap: 0 40px;
+  gap: 0 38px;
 }
 
 .menu a {
@@ -41,18 +38,25 @@ header {
   font-weight: 500;
   word-spacing: -1px;
 }
+.toggle {
+  display: flex;
+}
 
 .btn {
-  padding: 14px 26px;
-  font-size: 16px;
+  padding: 14px 15.7px;
+  font-size: 14px;
   border: none;
   color: #fff;
   background-color: #060c3e;
   border-radius: 35px;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Outfit", sans-serif;
+  text-align: center;
 }
 
+.togg {
+  display: none;
+}
 /* -----Container & Bannner ------ */
 .container {
   margin: 0;
@@ -75,7 +79,7 @@ header {
 .banner {
   display: flex;
   width: 100%;
-  height: 94vh;
+  /* height: 94vh; */
   /* flex-wrap: wrap; */
   justify-content: space-between;
   padding: 0.5% 16% 0.5%;
@@ -152,10 +156,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5% 16%;
+  padding: 5% 13%;
   height: 75vh;
   gap: 4%;
-  background: url("img3.jpg");
+  background: url("images/img3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,8 +205,7 @@ header {
 
 /* -----Sec 2 ------ */
 .sec2 {
-  height: 95vh;
-  width: auto;
+  height: 99vh;
   display: flex;
   position: relative;
   justify-content: center;
@@ -219,7 +222,6 @@ header {
 .sec2 .main {
   width: 68%;
   height: 78%;
-
   align-self: center;
   display: flex;
   border-radius: 0 15px 15px 0;
@@ -227,16 +229,16 @@ header {
 
 .sec2 .main .main1 {
   width: 50%;
-  height: 100%;
-  background: url("img4.jpg");
+  /* height: 100%; */
+  background: url("images/img4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.sec2 .main .main1 img {
+/* .sec2 .main .main1 img {
   width: 100%;
   height: 100%;
-}
+} */
 .sec2 .main .main2 {
   width: 50%;
   height: 100%;
@@ -244,8 +246,8 @@ header {
   border-radius: 0 15px 15px 0;
   display: flex;
   flex-direction: column;
-  padding: 6% 4%;
-  gap: 1%;
+  padding: 4% 4%;
+  gap: 3%;
 }
 .sec2 .main .main2 h1 {
   font-family: "Lexend Exa", "Merriweather";
@@ -275,7 +277,7 @@ header {
 /* -----Sec 3 ------ */
 .sec3 {
   height: 95vh;
-  padding: 4% 0;
+  padding: 4% 0%;
   display: flex;
   justify-content: center;
   background: #fff;
@@ -284,7 +286,7 @@ header {
   position: relative;
   display: flex;
   align-self: center;
-  width: 73%;
+  width: 95%;
   height: 84%;
   border-radius: 15px 0 0 15px;
   z-index: 1;
@@ -299,7 +301,7 @@ header {
   z-index: -10000;
 }
 .sec3 .main .main1 {
-  width: 57%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   background: green;
@@ -328,11 +330,11 @@ header {
 
 .sec3 .main .main2 {
   display: flex;
-  padding: 4% 4%;
+  padding: 4% 1.4%;
   justify-content: flex-start;
 }
 .sec3 .main .main2 p {
-  font-size: 280%;
+  font-size: 200%;
   font-weight: 500;
   color: #060c3e;
   word-spacing: -7px;
@@ -481,6 +483,7 @@ header {
 /* -----Sec 6  ----- */
 .sec6 {
   display: flex;
+  width: 100%;
   justify-content: space-around;
   align-content: center;
   padding: 1% 0.48%;
@@ -493,7 +496,7 @@ header {
   justify-content: space-between;
   align-content: center;
   text-align: center;
-  background: url("img22.jpg");
+  background: url("images/img22.jpg");
   border-radius: 10px;
   color: #fff;
   padding: 5.8% 9%;
@@ -523,7 +526,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 85%;
+  /* width: 85%; */
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -540,7 +543,7 @@ header {
 }
 
 .sec6 .sec6_main .sec6_2 .sign #reg {
-  width: 45rem;
+  width: 40vw;
   height: 3.6rem;
   border-radius: 50px;
   outline: none;
@@ -586,7 +589,7 @@ header {
   background: #060c3e;
   display: flex;
   flex-direction: column;
-  padding: 4% 13%;
+  padding: 4% 16%;
   gap: 4.64rem;
 }
 
@@ -597,10 +600,10 @@ header {
 
 .sec7 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 1.8rem;
+  grid-template-columns: 0.85fr 1fr 1fr;
+  column-gap: 2.8rem;
   border-bottom: 0.7px solid rgba(245, 245, 245, 0.278);
-  padding-bottom: 4rem;
+  padding-bottom: 3rem;
 }
 
 .sec7 .main .main_1 {
@@ -616,13 +619,13 @@ header {
   font-size: 15.9px;
   line-height: 1.7rem;
   color: #ffffffdd;
-  text-wrap: wrap;
+  overflow-wrap: break-word;
 }
 
 .sec7 .main .main_1 .icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2rem;
+  gap: 1.9rem;
 }
 
 .sec7 .main .main_1 .icons .icon {
@@ -645,7 +648,42 @@ header {
 .sec7 .main .main_3 {
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
 }
+
+.sec7 .main .main_3 .contact a {
+  display: flex;
+  gap: 1.22rem;
+}
+
+.sec7 .main .main_3 .contact a img {
+  display: flex;
+  border-radius: 50%;
+  padding: 14px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 0.5px solid #ffffff; /* Added white border  */
+}
+
+.sec7 .main .main_3 .contact a .phone {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  color: #ffffff;
+  align-self: center;
+}
+.sec7 .main .main_3 .contact a .phone h1 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff9d;
+}
+.sec7 .main .main_3 .contact a .phone h2 {
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffffdd;
+}
+
 .sec7 .summary {
   align-self: center;
   color: #ffffffdd;

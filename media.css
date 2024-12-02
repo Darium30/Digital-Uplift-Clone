@@ -1,0 +1,361 @@
+@media (max-width: 1388px) {
+  .sec2 {
+    height: 80vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 3% 2%;
+  }
+
+  .sec2 .img4 {
+    position: absolute;
+    width: 7%;
+    height: 10.5%;
+    right: 3.2%;
+    top: -12.6%;
+    z-index: -1;
+  }
+  .sec2 .main {
+    width: 98%;
+    height: 100%;
+    align-self: center;
+    display: flex;
+    border-radius: 0 15px 15px 0;
+  }
+
+  .sec2 .main .main2 h1 {
+    font-family: "Lexend Exa", "Merriweather";
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -5px;
+    color: #070a29;
+    line-height: 115%;
+  }
+  .sec2 .main .main2 h4 {
+    font-family: "Lexend Exa", "Merriweather";
+    margin-bottom: 8%;
+    font-size: 12.45px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #070a29;
+  }
+  .sec2 .main .main2 .btn {
+    width: 160px;
+    text-align: center;
+    padding: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    word-spacing: -2px;
+  }
+}
+@media (max-width: 1201px) {
+  header {
+    padding: 0 2%;
+  }
+  .container::after {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    width: 100%;
+    /* height: 94vh; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 0.5% 3% 5% 2%;
+    gap: 8%;
+    margin-bottom: 2vh;
+  }
+  .banner .banner1 h2 {
+    width: 100%;
+    font-size: 420%;
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-family: "Outfit", "Merriweather";
+    color: #070a29;
+    line-height: -50%;
+  }
+  .banner2 .img1 {
+    width: 94%;
+    height: 106%;
+    border-radius: 10px;
+    border-top-right-radius: 120px;
+  }
+  .sec1 {
+    padding: 7% 3%;
+    height: auto;
+  }
+
+  .sec2 {
+    height: 115vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 8% 2%;
+  }
+
+  .sec2 .img4 {
+    position: absolute;
+    width: 14.18%;
+    height: 20.5%;
+    right: 3.2%;
+    top: -12.6%;
+    z-index: -1;
+  }
+  .sec2 .main {
+    width: 98%;
+    height: 100%;
+    align-self: center;
+    display: flex;
+    border-radius: 0 15px 15px 0;
+  }
+  .sec2 .main .main2 h1 {
+    font-family: "Lexend Exa", "Merriweather";
+    font-size: 2.6rem;
+    font-weight: 600;
+    letter-spacing: -5px;
+    color: #070a29;
+    line-height: 140%;
+  }
+  .sec2 .main .main2 h4 {
+    font-family: "Lexend Exa", "Merriweather";
+    margin-bottom: 8%;
+    font-size: 13.8px;
+    font-weight: 400;
+    line-height: 140%;
+    color: #070a29;
+  }
+  .sec2 .main .main2 .btn {
+    width: 160px;
+    text-align: center;
+    padding: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    word-spacing: -2px;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    padding: 0 2%;
+  }
+  .menu {
+    display: none;
+  }
+  .btn {
+    padding: 8px 2px;
+    width: 105px;
+    font-size: 10.5px;
+    border: none;
+    color: #fff;
+    background-color: #060c3e;
+    border-radius: 35px;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+  }
+  .toggle {
+    display: flex;
+    gap: 2rem;
+  }
+  .togg {
+    display: block;
+    width: 25px;
+  }
+  .banner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5% 1.3% 0.5% 1.2%;
+    align-items: center;
+    gap: 3rem;
+    /* margin-bottom: 2vh; */
+  }
+  .banner .banner1,
+  .banner2 {
+    width: 100%;
+    gap: 1.5rem;
+  }
+  .banner .banner1 h2 {
+    width: 76%;
+    font-size: 390%;
+    font-weight: 600;
+    letter-spacing: -2px;
+    font-family: "Outfit", "Merriweather";
+    color: #070a29;
+    line-height: -50%;
+    text-align: center;
+    align-self: center;
+  }
+  .banner .banner1 p {
+    font-size: 15px;
+    font-family: "Outfit", "Merriweather";
+    line-height: 25px;
+    width: 50%;
+    word-wrap: break-word;
+    margin-bottom: 1%;
+    color: #070a29;
+    align-self: center;
+    text-align: center;
+  }
+  .banner .banner1 h3 {
+    font-size: 19px;
+    font-family: "Outfit", "Merriweather";
+    color: #070a29;
+    font-weight: 600;
+  }
+  .banner1 .btn {
+    width: 160px;
+    /* height: 55px; */
+    text-align: center;
+    padding: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    word-spacing: -2px;
+    align-self: center;
+  }
+
+  .banner2 .img1 {
+    width: 100%; /* Adjust width as needed */
+    max-width: 40%; /*Set a max-width to prevent the image from becoming too large*/
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    border-top-right-radius: 120px;
+    align-self: center; /* Center vertically within flex container */
+    margin: 0 auto; /*Center horizontally*/
+    display: block; /* Ensure it's a block-level element */
+  }
+
+  .banner2 .img2 {
+    position: absolute;
+    height: 25%;
+    width: 13%;
+    left: 10%;
+    top: 15%;
+    z-index: -1;
+  }
+
+  .sec2 {
+    height: 90vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding: 8% 2%;
+  }
+
+  .sec2 .img4 {
+    position: absolute;
+    width: 7%;
+    height: 10.5%;
+    right: 3.2%;
+    top: -12.6%;
+    z-index: -1;
+  }
+  .sec2 .main {
+    width: 98%;
+    height: 100%;
+    align-self: center;
+    display: flex;
+    border-radius: 0 15px 15px 0;
+  }
+
+  .sec2 .main .main2 {
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 4%;
+    /* gap: 1%; */
+  }
+
+  .sec2 .main .main2 h1 {
+    font-family: "Lexend Exa", "Merriweather";
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -5px;
+    color: #070a29;
+    line-height: 115%;
+  }
+  .sec2 .main .main2 h4 {
+    font-family: "Lexend Exa", "Merriweather";
+    margin-bottom: 8%;
+    font-size: 12.45px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #070a29;
+  }
+  .sec2 .main .main2 .btn {
+    width: 160px;
+    text-align: center;
+    padding: 19px;
+    font-size: 14px;
+    font-weight: 700;
+    word-spacing: -2px;
+  }
+
+  .sec3 {
+    height: auto;
+    padding: 10%2%;
+  }
+  .sec3 .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 95%;
+    height: 84%;
+    border-radius: 15px 0 0 15px;
+    gap: 4rem;
+    z-index: 1;
+  }
+
+  .sec3 .main .main1 {
+    width: 98%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background: green;
+    justify-content: space-around;
+    padding: 2% 3%;
+    border-radius: 15px;
+    background: rgb(225, 231, 231);
+    /* z-index: 1; */
+  }
+  .sec3 .main .main1 .quote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #fff;
+    height: 15%;
+    padding: 2% 6%;
+    border-radius: 10px;
+    gap: 2%;
+  }
+  .sec3 .main .main1 .quote p {
+    font-size: 95%;
+    font-weight: 600;
+  }
+
+  .sec3 .main .main2 {
+    display: flex;
+    padding: 4% 15.4%;
+    justify-content: flex-start;
+  }
+  .sec3 .main .main2 p {
+    font-size: 160%;
+    font-weight: 700;
+    color: #060c3e;
+    word-spacing: -7px;
+    font-style: "Outfit ";
+  }
+  .sec3 .main .img5 {
+    position: absolute;
+    width: 18%;
+    height: 16%;
+    left: -3%;
+    top: -5%;
+    z-index: -10000;
+  }
+}
